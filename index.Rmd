@@ -1,0 +1,43 @@
+---
+title: "R Markdown"
+author: "이현열"
+date: "2022-10-21"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+    toc_depth: 2
+    number_sections: yes
+---
+
+![](https://henryquant.notion.site/image/https%253A%252F%252Fs3-us-west-2.amazonaws.com%252Fsecure.notion-static.com%252Ffe25adaf-63d3-4f14-953a-3df2186446b0%252FUntitled.png?id=47c084a1-d82c-4e88-ba80-4467cb92340b&table=block&spaceId=44da2c1c-823b-4c52-bf93-9bf765008107&width=2000&userId=&cache=v2)
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+//단축키 : 커맨드 옵션 i \## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+여기에 수식을 입력합니다. $y=ax=b$
+
+$$y=ax=b$$ 회귀식은 일반적으로 $y=ax+b$이며 다중회귀식은 다음과 같다.
+
+$$ y = a1x1 + a2x2 + \dots + b$$
